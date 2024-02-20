@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "656179434271",
+    "project_id": "trade-hive-ysklid",
+    "storage_bucket": "trade-hive-ysklid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656179434271:android:a1bcf3885bb9837efd162a",
+        "android_client_info": {
+          "package_name": "com.cosmos.cleverage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656179434271-pnclim66esrdm6j1d63tt3fce5t68uvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cosmos.cleverage",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "656179434271-sp6o7p6s2sn2hl9s6f5jcqkvv9sruo4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZAcA3-LJRzTdD4hIb3KnN4czWelhOYhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656179434271-sp6o7p6s2sn2hl9s6f5jcqkvv9sruo4h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "656179434271-ttlbgkdse53fh1c7s56nmiu6ij8cr6ou.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cosmos.cleverage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

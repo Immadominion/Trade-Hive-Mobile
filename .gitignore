@@ -1,0 +1,15 @@
+# FVM
+.fvm/
+.pub/
+.packages
+.dart_tool/
+
+# Flutter
+/build/
+.dart_tool/
+.idea/
+.vscode/
+*.iml
+*.iws
+*.bat
+*.log
