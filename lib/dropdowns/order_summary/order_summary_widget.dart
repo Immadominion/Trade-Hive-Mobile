@@ -1,4 +1,4 @@
-// ignore_for_file: unnecessary_import
+// ignore_for_file: unnecessary_import, unused_import
 
 import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
@@ -46,15 +46,15 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
           curve: Curves.easeInOut,
           delay: 0.ms,
           duration: 400.ms,
-          begin: Offset(120.0, 0.0),
-          end: Offset(0.0, 0.0),
+          begin: const Offset(120.0, 0.0),
+          end: const Offset(0.0, 0.0),
         ),
         TiltEffect(
           curve: Curves.easeInOut,
           delay: 0.ms,
           duration: 400.ms,
-          begin: Offset(0, 0.873),
-          end: Offset(0, 0),
+          begin: const Offset(0, 0.873),
+          end: const Offset(0, 0),
         ),
       ],
     ),
@@ -89,13 +89,13 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
       mainAxisSize: MainAxisSize.min,
       children: [
         Padding(
-          padding: EdgeInsetsDirectional.fromSTEB(16.0, 90.0, 16.0, 32.0),
+          padding: const EdgeInsetsDirectional.fromSTEB(16.0, 90.0, 16.0, 32.0),
           child: Container(
             width: 370.0,
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
-              boxShadow: [
-                BoxShadow(
+              boxShadow: const [
+                 BoxShadow(
                   blurRadius: 4.0,
                   color: Color(0x33000000),
                   offset: Offset(0.0, 2.0),
@@ -104,7 +104,7 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
               borderRadius: BorderRadius.circular(12.0),
             ),
             child: Padding(
-              padding: EdgeInsets.all(16.0),
+              padding: const EdgeInsets.all(16.0),
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -137,7 +137,7 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
                   ),
                   Padding(
                     padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 4.0, 0.0, 12.0),
+                        const EdgeInsetsDirectional.fromSTEB(0.0, 4.0, 0.0, 12.0),
                     child: Text(
                       'Below is a list of your items.',
                       style: FlutterFlowTheme.of(context).labelMedium,
@@ -179,22 +179,22 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
                                   borderRadius: BorderRadius.circular(12.0),
                                 ),
                                 child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 4.0, 0.0, 8.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
                                             0.0, 1.0, 1.0, 1.0),
                                         child: ClipRRect(
                                           borderRadius:
                                               BorderRadius.circular(12.0),
                                           child: CachedNetworkImage(
                                             fadeInDuration:
-                                                Duration(milliseconds: 500),
+                                                const Duration(milliseconds: 500),
                                             fadeOutDuration:
-                                                Duration(milliseconds: 500),
+                                                const Duration(milliseconds: 500),
                                             imageUrl:
                                                 menuItemProductsRecord.photoUrl,
                                             width: 70.0,
@@ -206,7 +206,7 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
                                       Expanded(
                                         child: Padding(
                                           padding:
-                                              EdgeInsetsDirectional.fromSTEB(
+                                              const EdgeInsetsDirectional.fromSTEB(
                                                   8.0, 0.0, 4.0, 0.0),
                                           child: Column(
                                             mainAxisSize: MainAxisSize.max,
@@ -245,7 +245,7 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
                                                 ],
                                               ),
                                               Padding(
-                                                padding: EdgeInsetsDirectional
+                                                padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         0.0, 4.0, 8.0, 0.0),
                                                 child: AutoSizeText(
@@ -257,7 +257,7 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
                                                 ),
                                               ),
                                               Align(
-                                                alignment: AlignmentDirectional(
+                                                alignment: const AlignmentDirectional(
                                                     1.0, 0.0),
                                                 child: InkWell(
                                                   splashColor:
@@ -308,12 +308,12 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
                     color: FlutterFlowTheme.of(context).alternate,
                   ),
                   Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 5.0),
+                    padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 5.0),
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 12.0, 0.0, 8.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
@@ -376,7 +376,7 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
                   if (FFAppState().cart.length >= 1)
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 24.0),
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 24.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -392,15 +392,15 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
                             text: 'Clear Cart',
                             options: FFButtonOptions(
                               height: 48.0,
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   16.0, 0.0, 16.0, 0.0),
-                              iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 0.0),
                               color: FlutterFlowTheme.of(context)
                                   .primaryBackground,
                               textStyle: FlutterFlowTheme.of(context).bodyLarge,
                               elevation: 0.0,
-                              borderSide: BorderSide(
+                              borderSide: const BorderSide(
                                 color: Colors.transparent,
                                 width: 1.0,
                               ),
@@ -426,15 +426,15 @@ class _OrderSummaryWidgetState extends State<OrderSummaryWidget>
                             text: 'Go to Cart',
                             options: FFButtonOptions(
                               height: 48.0,
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   32.0, 0.0, 32.0, 0.0),
-                              iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 0.0),
                               color: FlutterFlowTheme.of(context).primary,
                               textStyle:
                                   FlutterFlowTheme.of(context).titleSmall,
                               elevation: 2.0,
-                              borderSide: BorderSide(
+                              borderSide: const BorderSide(
                                 color: Colors.transparent,
                                 width: 1.0,
                               ),
